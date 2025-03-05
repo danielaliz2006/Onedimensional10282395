@@ -67,10 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="from2.aspx" />
     <Content Include="onedimensionalarray.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="from2.aspx.cs">
+      <DependentUpon>from2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="from2.aspx.designer.cs">
+      <DependentUpon>from2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="onedimensionalarray.aspx.cs">
       <DependentUpon>onedimensionalarray.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
